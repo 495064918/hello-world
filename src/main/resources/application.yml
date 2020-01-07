@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver            # mysql驱动包
+    url: jdbc:mysql://120.25.246.196:3306/design?autoReconnect=true&useSSL=false&characterEncoding=utf-8            # 数据库名称
+    username: root
+    password: 123456
+
+####swagger相关配置
+swagger:
+  base-package: com.huaj.controller
+  title: Springboot构建微服务设计模式接口
+  description: 该源码未经过允许的情况下，私自分享视频和源码属于违法行为。
+  version: 1.1
+  terms-of-service-url: cloud.hsz88.com
+  contact:
+    name: huaj
+    email: 495064918@qq.com
